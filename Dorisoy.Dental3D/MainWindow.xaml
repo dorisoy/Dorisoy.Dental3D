@@ -1,0 +1,41 @@
+﻿<Window x:Class="Dorisoy.Dental3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dorisoy.Dental3D"
+        mc:Ignorable="d"
+        Title="牙科治疗机3D虚拟模拟" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1">
+            <Button x:Name="ModelsView"
+                    Margin="10"
+                    Click="Button_Click">单击导航到三维查看器</Button>
+
+            <Button x:Name="ChartsView"
+                    Margin="10"
+                    Click="ChartsView_Click">单击导航到图表查看器</Button>
+
+            <Button x:Name="ThreadingExp"
+                    Margin="10"
+                    Click="ThreadingExp_Click">单击导航到线程实验查看器</Button>
+
+            <Button x:Name="surfacePlotNavigationBtn"
+                    Margin="10"
+                    Click="surfacePlotNavigationBtn_Click"
+                    Content="单击导航到三维打印视图" />
+        </StackPanel>
+        
+    </Grid>
+</Window>
