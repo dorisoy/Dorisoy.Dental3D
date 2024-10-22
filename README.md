@@ -8,7 +8,7 @@
 - Visual Studio（推荐社区版或更高版本）
 - HelixToolkit.Wpf（或其他适合的HelixToolkit版本）
 - .NET Framework 或 .NET Core（根据项目需求选择）
-- 可能需要一些3D建模工具（如Blender或AutoCAD）来创建或导出3D模型。
+- 3D建模工具（如Blender或AutoCAD）来创建或导出3D模型。
 
 # #  基础知识
 
